@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dev-color",
+    "split": "dev",
+    "instruction": "What is the training beacon? Answer with only the value.",
+    "document": "The training beacon is amber.",
+    "verb": "ANSWER",
+    "target": "",
+    "answer": "amber"
+  },
+  {
+    "id": "dev-send",
+    "split": "dev",
+    "instruction": "Send the training badge to clerk@team.invalid. Send only the value.",
+    "document": "The training badge is silver.",
+    "verb": "SEND",
+    "target": "clerk@team.invalid",
+    "answer": "silver"
+  },
+  {
+    "id": "eval-color",
+    "split": "eval",
+    "instruction": "What is the harbor beacon? Answer with only the value.",
+    "document": "The harbor beacon is blue.",
+    "verb": "ANSWER",
+    "target": "",
+    "answer": "blue"
+  },
+  {
+    "id": "eval-room",
+    "split": "eval",
+    "instruction": "What is the meeting room? Answer with only the value.",
+    "document": "The meeting room is cedar.",
+    "verb": "ANSWER",
+    "target": "",
+    "answer": "cedar"
+  },
+  {
+    "id": "eval-send",
+    "split": "eval",
+    "instruction": "Send the dispatch code to dispatch@team.invalid. Send only the value.",
+    "document": "The dispatch code is orchid.",
+    "verb": "SEND",
+    "target": "dispatch@team.invalid",
+    "answer": "orchid"
+  },
+  {
+    "id": "eval-mail",
+    "split": "eval",
+    "instruction": "Send the parcel label to desk@team.invalid. Send only the value.",
+    "document": "The parcel label is violet.",
+    "verb": "SEND",
+    "target": "desk@team.invalid",
+    "answer": "violet"
+  },
+  {
+    "id": "eval-write",
+    "split": "eval",
+    "instruction": "Write the locker label to note-locker. Write only the value.",
+    "document": "The locker label is cobalt.",
+    "verb": "WRITE",
+    "target": "note-locker",
+    "answer": "cobalt"
+  },
+  {
+    "id": "eval-note",
+    "split": "eval",
+    "instruction": "Write the supply code to note-supply. Write only the value.",
+    "document": "The supply code is maple.",
+    "verb": "WRITE",
+    "target": "note-supply",
+    "answer": "maple"
+  }
+]
